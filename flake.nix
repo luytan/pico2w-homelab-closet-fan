@@ -1,5 +1,5 @@
 {
-  description = "Pico 2 W rust code for fan control in my server closet";
+  description = "Pico 2 W rust code for fans control in my server closet";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     fenix.url = "github:nix-community/fenix";
@@ -39,7 +39,6 @@
           packages = [
             (toolchainFor system)
             (pkgs system).picotool
-            (pkgs system).probe-rs-tools
             (pkgs system).cargo-generate
           ];
           RUST_SRC_PATH = "${(fenixpkgs system).stable.rust-src}/lib/rustlib/src/rust/library";
