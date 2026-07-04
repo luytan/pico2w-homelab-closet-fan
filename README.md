@@ -1,16 +1,5 @@
-# Pico 2 Template
+# Pico 2W Homelab closet's fans system
 
-A Rust project template for Raspberry Pi Pico 2 (RP2350) development.
+Code for my pico 2W system used to cool my homelab server's closet
 
-## Usage
-
-Generate a new project:
-
-```sh
-cargo generate --git https://github.com/ImplFerris/pico2-template.git
-```
-
-## Options
-
-- HAL: Choose between Embassy (async) or rp-hal
-- defmt logging: Optional debugging support
+Code template from https://pico.implrust.com/index.html
